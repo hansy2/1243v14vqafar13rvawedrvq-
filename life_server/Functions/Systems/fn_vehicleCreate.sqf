@@ -5,11 +5,12 @@
 	Description:
 	Answers the query request to create the vehicle in the database.
 */
-private["_uid","_side","_type","_classname","_color","_plate"];
+private["_uid","_side","_type","_classname","_color","_plate","_insureSystem"];
 _uid = [_this,0,"",[""]] call BIS_fnc_param;
 _side = [_this,1,sideUnknown,[west]] call BIS_fnc_param;
 _vehicle = [_this,2,ObjNull,[ObjNull]] call BIS_fnc_param;
 _color = [_this,3,-1,[0]] call BIS_fnc_param;
+_insureSystem = 0;
 
 //Error checks
 if(_uid == "" OR _side == sideUnknown OR isNull _vehicle) exitWith {};
@@ -31,5 +32,5 @@ _side = switch(_side) do {
 _plate = round(random(1000000));
 [_uid,_side,_type,_classname,_color,_plate] call DB_fnc_insertVehicle;
 
-_vehicle setVariable["dbInfo",[_uid,_plate]];
+_vehicle setVariable["dbInfo",[_uid,_plate,_insureSystem]];
 _vehicle addEventHandler["Killed","_this spawn TON_fnc_vehicleDead"];
