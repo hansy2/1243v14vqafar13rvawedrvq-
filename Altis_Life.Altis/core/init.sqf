@@ -116,7 +116,7 @@ LIFE_ID_RevealObjects = ["LIFE_RevealObjects","onEachFrame","life_fnc_revealObje
 player SVAR ["steam64ID",steamid];
 player SVAR ["realname",profileName,true];
 
-life_fnc_moveIn = compileFinal
+life_fnc_moveIn = compileFinal 
 "
 	life_disable_getIn = false;
 	player moveInCargo (_this select 0);
@@ -124,6 +124,8 @@ life_fnc_moveIn = compileFinal
 ";
 
 [] spawn life_fnc_survival;
+
+[] execVM "scripts\fn_initSkin.sqf"; // skins
 
 [] spawn {
 	while {true} do {
