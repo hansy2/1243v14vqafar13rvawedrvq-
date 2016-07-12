@@ -3,7 +3,7 @@
 //  String Functions Library
 //  Version: 2.2.1
 //  File: KRON_Strings.sqf
-//  Author: Kronzky 
+//  Author: Kronzky
 //
 // =========================================================================================================
 //
