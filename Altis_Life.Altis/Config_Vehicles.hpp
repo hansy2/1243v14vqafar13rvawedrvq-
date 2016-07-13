@@ -167,6 +167,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 12500;
         textures[] = {};
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class O_Truck_03_medical_F {
@@ -176,6 +177,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 22500;
         textures[] = {};
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class B_Truck_01_medical_F {
@@ -185,6 +187,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 30000;
         textures[] = {};
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class C_Rubberboat {
@@ -194,6 +197,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 2500;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class B_Heli_Transport_01_F {
@@ -203,6 +207,7 @@ class LifeCfgVehicles {
         insurance = 16000;
         chopShop = 45000;
         textures[] = {};
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class B_MRAP_01_hmg_F {
@@ -218,6 +223,7 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class O_Boat_Armed_01_hmg_F {
@@ -227,6 +233,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 5000;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class B_Boat_Armed_01_minigun_F {
@@ -236,6 +243,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 5000;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class I_Boat_Armed_01_minigun_F {
@@ -245,6 +253,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 5000;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class B_G_Boat_Transport_01_F {
@@ -254,6 +263,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 5000;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class B_Boat_Transport_01_F {
@@ -263,6 +273,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 5000;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class O_Truck_03_transport_F {
@@ -272,6 +283,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 100000;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class O_Truck_03_device_F {
@@ -281,6 +293,7 @@ class LifeCfgVehicles {
         insurance = 25000;
         chopShop = 225000;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class Land_CargoBox_V1_F {
@@ -290,6 +303,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 1200;
         textures[] = {};
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class Box_IND_Grenades_F {
@@ -299,6 +313,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 1200;
         textures[] = {};
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class B_supplyCrate_F {
@@ -308,6 +323,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 1200;
         textures[] = {};
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class B_G_Offroad_01_F {
@@ -317,6 +333,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 6250;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class B_G_Offroad_01_armed_F {
@@ -326,6 +343,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 100000;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class I_G_Van_01_transport_F {
@@ -335,6 +353,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 5000;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class C_Boat_Civil_01_F {
@@ -344,6 +363,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 11000;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class C_Boat_Civil_01_police_F {
@@ -353,6 +373,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 5000;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class C_Boat_Civil_01_rescue_F {
@@ -362,6 +383,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 5000;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class B_Truck_01_box_F {
@@ -371,6 +393,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 175000;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class B_Truck_01_transport_F {
@@ -380,6 +403,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 127500;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class O_MRAP_02_F {
@@ -389,6 +413,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 75000;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class I_MRAP_03_F {
@@ -398,6 +423,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 5000;
         textures[] = { };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class C_Offroad_01_F {
@@ -438,6 +464,7 @@ class LifeCfgVehicles {
                 "#(ai,64,64,1)Fresnel(1.3,7)"
             } }
         };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class C_Kart_01_Blu_F {
@@ -447,6 +474,7 @@ class LifeCfgVehicles {
         inusrance = 1650;
         chopShop = 7500;
         textures[] = {};
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class C_Kart_01_Fuel_F {
@@ -456,6 +484,7 @@ class LifeCfgVehicles {
         inusrance = 1650;
         chopShop = 7500;
         textures[] = {};
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class C_Kart_01_Red_F {
@@ -465,6 +494,7 @@ class LifeCfgVehicles {
         inusrance = 1650;
         chopShop = 7500;
         textures[] = {};
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class C_Kart_01_Vrana_F {
@@ -474,6 +504,7 @@ class LifeCfgVehicles {
         inusrance = 1650;
         chopShop = 7500;
         textures[] = {};
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class C_Hatchback_01_sport_F {
@@ -505,6 +536,7 @@ class LifeCfgVehicles {
                 "#(ai,64,64,1)Fresnel(1.3,7)"
             } }
         };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class B_Quadbike_01_F {
@@ -542,6 +574,7 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa"
             } }
         };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class I_Truck_02_covered_F {
@@ -559,6 +592,7 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class I_Truck_02_transport_F {
@@ -576,6 +610,7 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class O_Truck_03_covered_F {
@@ -585,6 +620,7 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 125000;
         textures[] = {};
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class C_Hatchback_01_F {
@@ -619,6 +655,7 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa"
             } }
         };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class C_SUV_01_F {
@@ -641,6 +678,7 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
             } },
         };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class C_Van_01_transport_F {
@@ -657,6 +695,7 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
             } }
         };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class C_Van_01_box_F {
@@ -673,6 +712,7 @@ class LifeCfgVehicles {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
             } }
         };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class B_MRAP_01_F {
@@ -687,6 +727,7 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } }
         };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class B_Heli_Light_01_F {
@@ -742,6 +783,7 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(1,1,1,0.8)"
             } }
         };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class O_Heli_Light_02_unarmed_F {
@@ -767,6 +809,7 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(1,1,1,0.8)"
             } }
         };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class I_Heli_Transport_02_F {
@@ -787,6 +830,7 @@ class LifeCfgVehicles {
                 "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_3_dahoman_co.paa"
             } }
         };
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 
     class B_SDV_01_F {
@@ -796,5 +840,6 @@ class LifeCfgVehicles {
         insurance = 2500;
         chopShop = 75000;
         textures[] = {};
+        assurPrice[] = { 1000, 1000, 1000, 1000 };
     };
 };

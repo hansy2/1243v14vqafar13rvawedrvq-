@@ -371,5 +371,7 @@ class Life_Client_Core
 		class gangDeposit {};
 		class wireTransfer {};
 		class gangWithdraw {};
+		class insureCar{}; //versicherung
+		
 	};
 };
