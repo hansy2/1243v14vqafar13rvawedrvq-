@@ -10,25 +10,25 @@ while {true} do
 	if(playerSide == west) then 
 	{
 		if (uniform player == "U_Rangemaster") then {
-			player setObjectTextureGlobal[0,"textures\cop_uniform.jpg"];
+			player setObjectTextureGlobal[0,"textures\PoliceOfficer.paa"];
 		};
 	};
 	if(playerSide == independent) then
 	{
 		if (uniform player == "U_B_CombatUniform_mcam") then {
-			player setObjectTextureGlobal[0,"textures\medic_uniform.jpg"];
+			player setObjectTextureGlobal[0,"textures\uniform_medic.paa"];
 		};
 	};
 	if(playerSide == east) then
 	{
 		if (uniform player == "U_Rangemaster") then {
-			//player setObjectTextureGlobal[0,"textures\adac_uniform.paa"];
+			player setObjectTextureGlobal[0,"textures\adac_uniform.paa"];
 		};
 	};
 	if(playerSide == civilian) then
 	{
 		if (uniform player == "B_Soldier_base_F") then {
-			//player setObjectTextureGlobal[0,"textures\anzug.paa"];
+			player setObjectTextureGlobal[0,"textures\anzug.paa"];
 		};
 	};
 	sleep 30;//safe some cpu
