@@ -12,7 +12,7 @@ class CfgPatches {
 class Life_Server_Settings {
 	class EXTDB {
 		DatabaseName = "ArmaLife";
-		DebugMode = 0;
+		DebugMode = 1;
 	};
 };
 
@@ -100,6 +100,7 @@ class CfgFunctions {
 			class cleanupRequest {};
 			class setObjVar {};
 			class keyManagement {};
+			class insureCar{};
 		};
 
 		class Housing {
