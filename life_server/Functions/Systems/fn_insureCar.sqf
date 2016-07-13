@@ -10,5 +10,4 @@ _pid = [_this,1,"",[""]] call BIS_fnc_param;
 _unit = [_this,2,ObjNull,[ObjNull]] call BIS_fnc_param;
 _assurPrice = [_this,3,0,[0]] call BIS_fnc_param;
 _query = format["UPDATE vehicles SET insure='1' WHERE pid='%1' AND id='%2'",_pid,_vid];
-waitUntil {!DB_Async_Active};
 _thread = [_query,1] call DB_fnc_asyncCall;

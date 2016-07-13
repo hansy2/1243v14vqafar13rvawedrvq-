@@ -48,7 +48,7 @@ if(!(EQUAL(typeName _assurPrice,typeName 0)) OR _assurPrice < 1) then {_assurPri
  (localize "STR_Shop_Veh_UI_RetrievalP")+ " <t color='#8cff9b'>$%1</t><br/>
  " +(localize "STR_Shop_Veh_UI_SellP")+ " <t color='#8cff9b'>$%2</t><br/>
  Versicherung Preis: <t color='#8cff9b'>$%9</t><br/>
- Staatlichen Versicherung: %10<br/>
+ Versichertenstatus: %10<br/>
  " +(localize "STR_Shop_Veh_UI_Color")+ " <t color='#8cff9b'>%8</t><br/>
  " +(localize "STR_Shop_Veh_UI_MaxSpeed")+ " <t color='#8cff9b'>%3 km/h</t><br/>
  " +(localize "STR_Shop_Veh_UI_HPower")+ " <t color='#8cff9b'>%4</t><br/>
