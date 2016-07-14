@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="Altis Life RPG">
+  <Package name="NHS">
+    <Key ID="STR_NHS_Died">
+      <Original>%1 starb durch eine schwere Verletzung.</Original>
+    </Key>
+    <Key ID="STR_NHS_Killed">
+      <Original>%1 wurde von %2 getötet!</Original>
+    </Key>
+    <Key ID="STR_NHS_Suicide">
+      <Original>%1 hat sich umgebracht!</Original>
+    </Key>
+    <Key ID="STR_NHS_PlayerRevived">
+      <Original>%1 wurde wiederbelebt!</Original>
+    </Key>
+  </Package>
   <Package name="Shop_Names">
     <Key ID="STR_Shops_C_Bruce">
       <Original>Bruce's Outback Outfits</Original>

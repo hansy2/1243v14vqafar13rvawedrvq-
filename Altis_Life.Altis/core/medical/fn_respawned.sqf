@@ -71,5 +71,6 @@ if(life_removeWanted) then {
 	[getPlayerUID player] remoteExecCall ["life_fnc_wantedRemove",RSERV];
 };
 
+[0,"STR_NHS_Died",true,[profileName]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
 [] call SOCK_fnc_updateRequest;
 [] call life_fnc_hudUpdate; //Request update of hud.
