@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/hansy2/1243v14vqafar13rvawedrvq-.png?label=ready&title=Ready)](https://waffle.io/hansy2/1243v14vqafar13rvawedrvq-)
 <h1 align="center">Altis-Life</h1>
 <p align="center">
     <a href="https://github.com/TAWTonic/Altis-Life">
