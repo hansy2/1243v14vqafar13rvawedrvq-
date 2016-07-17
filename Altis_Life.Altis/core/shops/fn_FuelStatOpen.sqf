@@ -13,7 +13,7 @@ if (life_action_inUse) exitwith {};
 life_action_inUse = true;
 if(dialog) exitWith {};
 if(life_is_processing) exitwith {};
-_fuelstations = nearestobjects [player, ["Land_fs_feed_F"],10];
+_fuelstations = nearestobjects [player, ["Land_FuelStation_01_pump_F","Land_FuelStation_02_pump_F"],10];
 if (count _fuelstations == 0 ) exitwith {life_action_inUse = false;};
 _vehicleList = nearestObjects [player, ["Car","air"], 10];
 if (count _vehicleList < 1) exitwith {hint localize "STR_NOTF_VehicleNear";life_action_inUse = false;};
